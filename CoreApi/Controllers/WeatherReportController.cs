@@ -13,7 +13,7 @@ namespace CoreApi.Controllers
     {
         private static readonly string[] Summaries = new[]
        {
-            "Freezing1", "Bracing1","Cool"
+            "Freezing1", "Bracing1","Cool","Chilly"
             //"Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
         // GET: api/WeatherReport
