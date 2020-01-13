@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <UserSecretsId>cd4f94a6-92d1-4bf6-99ff-d6b956a8397c</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <AssemblyName>ioiooiiioiollkklkllilililliilililiililiklil</AssemblyName>
+    <AssemblyName>CoreApi</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
