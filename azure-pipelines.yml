@@ -9,11 +9,13 @@ pool:
 
 steps:
 - task: DotNetCoreCLI@2
-  displayName: Restore
+  displayName: dotnet restore
   inputs:
     command: restore
-    projects: '**\*.sln'
- 
+    projects: '**/*.csproj'
+    feedsToUse: 'select'
+    includeNuGetOrg: true
+
 - task: NuGetCommand@2
   displayName: 'NuGet restore'
   inputs:
