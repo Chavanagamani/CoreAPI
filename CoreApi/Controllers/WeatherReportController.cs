@@ -29,7 +29,10 @@ namespace CoreApi.Controllers
             })
             .ToArray();
         }
-
+        public int GetSum(int firstNumber,int secondNumber)
+        {
+           return firstNumber +secondNumber;
+        }
         // GET: api/WeatherReport/5
         [HttpGet("{id}", Name = "Get")]
         public string Get(int id)
