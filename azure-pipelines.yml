@@ -12,7 +12,7 @@ steps:
   displayName: Restore
   inputs:
     command: restore
-    projects: '$(Parameters.RestoreBuildProjects)'
+    projects: '**\*.sln'
  
 - task: NuGetCommand@2
   displayName: 'NuGet restore'
