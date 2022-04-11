@@ -13,7 +13,7 @@ namespace NUnitTestProject1
         public void Test1()
         {
             var weatherForecast = new WeatherReportController();
-            int result = weatherForecast.GetSum(6, 9);
+            int result = weatherForecast.GetSum( 6, 9);
 
             Assert.False(result != 14);
             //Assert.Pass();
