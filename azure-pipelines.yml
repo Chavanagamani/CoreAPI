@@ -13,6 +13,11 @@ steps:
   inputs:
     command: restore
     projects: '$(Parameters.RestoreBuildProjects)'
+ 
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+  inputs:
+    restoreSolution: '$(Parameters.solution)'
 
 - task: DotNetCoreCLI@2
   displayName: Build
