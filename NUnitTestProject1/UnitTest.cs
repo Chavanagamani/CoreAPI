@@ -24,7 +24,7 @@ namespace NUnitTestProject1
             var weatherForecast = new WeatherForecastController(null);
             int result = weatherForecast.GetSumWrongMethod(6, 11);
 
-           // Assert.True(result == 16);
+           // Assert.True(result  == 16);
             Assert.AreEqual(17, result);
         }
     }
