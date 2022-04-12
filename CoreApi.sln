@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi", "CoreApi\CoreApi.csproj", "{ED57D4BC-0202-476A-AA4A-7F2EBC7D61AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{7AED6837-CDFD-4F89-B576-1D441B949256}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTest", "NUnitTestProject1\NUnitTest.csproj", "{7AED6837-CDFD-4F89-B576-1D441B949256}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCoreApi", "DemoCoreApi\DemoCoreApi.csproj", "{23F36A84-D576-4917-B84D-E31E0F218876}"
 EndProject

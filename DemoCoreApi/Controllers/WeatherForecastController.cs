@@ -26,6 +26,10 @@ namespace DemoCoreApi.Controllers
         {
             return firstNumber + secondNumber;
         }
+        public int GetSumWrongMethod(int firstNumber, int secondNumber)
+        {
+            return firstNumber + secondNumber + firstNumber;
+        }
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
