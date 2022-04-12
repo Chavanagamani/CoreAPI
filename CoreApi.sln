@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi", "CoreApi\CoreApi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{7AED6837-CDFD-4F89-B576-1D441B949256}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCoreApi", "DemoCoreApi\DemoCoreApi.csproj", "{23F36A84-D576-4917-B84D-E31E0F218876}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7AED6837-CDFD-4F89-B576-1D441B949256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AED6837-CDFD-4F89-B576-1D441B949256}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AED6837-CDFD-4F89-B576-1D441B949256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F36A84-D576-4917-B84D-E31E0F218876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F36A84-D576-4917-B84D-E31E0F218876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F36A84-D576-4917-B84D-E31E0F218876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F36A84-D576-4917-B84D-E31E0F218876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,5 @@
 using NUnit.Framework;
-using CoreApi.Controllers;
+using DemoCoreApi.Controllers;
 namespace NUnitTestProject1
 {
     public class Tests
@@ -12,7 +12,7 @@ namespace NUnitTestProject1
         [Test]
         public void Test1()
         {
-            var weatherForecast = new WeatherReportController();
+            var weatherForecast = new WeatherForecastController();
             int result = weatherForecast.GetSum( 6, 9);
 
             Assert.False(result != 14);
